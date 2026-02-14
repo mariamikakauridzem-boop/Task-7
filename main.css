@@ -59,3 +59,20 @@ body {
     background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
     font-family: 'Montserrat', sans-serif;
 }
+
+
+.chat-button {
+    position: fixed;
+    bottom: 13px;
+    right: 40px;
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.chat-button img {
+    width: 100%;
+    object-fit: contain;
+}
